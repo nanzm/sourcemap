@@ -27,9 +27,9 @@ type v3 struct {
 }
 
 type OriginLine struct {
-	Highlight bool
-	Number    int
-	Code      string
+	Highlight bool   `json:"highlight"`
+	Number    int    `json:"number"`
+	Code      string `json:"code"`
 }
 
 func (m *sourceMap) parse(sourcemapURL string) error {
