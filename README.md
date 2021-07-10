@@ -1,9 +1,6 @@
 # Source maps consumer for Golang
 
-[![Build Status](https://travis-ci.org/go-sourcemap/sourcemap.svg)](https://travis-ci.org/go-sourcemap/sourcemap)
-[![PkgGoDev](https://pkg.go.dev/badge/github.com/go-sourcemap/sourcemap)](https://pkg.go.dev/github.com/go-sourcemap/sourcemap)
-
-> :heart: [**Uptrace.dev** - distributed traces, logs, and errors in one place](https://uptrace.dev)
+> fork form https://github.com/go-sourcemap/sourcemap
 
 ## Installation
 
