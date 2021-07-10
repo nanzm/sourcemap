@@ -1,0 +1,23 @@
+{
+  "version": 3,
+  "file": "SdkTest.1db18e51.js",
+  "sources": [
+    "../../src/views/Test/SdkTest.tsx"
+  ],
+  "sourcesContent": [
+    "import React from 'react';\nimport { Spin, Button, Divider } from 'antd';\nimport { withRouter } from 'react-router-dom';\n\nconst SdkTest = () => {\n  return (\n    <div>\n      <Divider />\n      <Button\n        onClick={() => {\n          let a = JSON.parse('{}');\n          console.log(a.user.name);\n        }}\n      >\n        error\n      </Button>\n      <Divider />\n    </div>\n  );\n};\n\nexport default withRouter(SdkTest);\n"
+  ],
+  "names": [
+    "withRouter",
+    "Divider",
+    "Button",
+    "onClick",
+    "a",
+    "JSON",
+    "parse",
+    "log",
+    "user",
+    "name"
+  ],
+  "mappings": "8DAqBA,MAAeA,GAjBC,oBAEX,MAAD,qBACGC,EAAD,sBACCC,EAAD,CACEC,QAAS,SACHC,EAAIC,KAAKC,MAAM,cACXC,IAAIH,EAAEI,KAAKC,QAEtB,yBAGAR,EAAD"
+}
