@@ -263,17 +263,17 @@ func (c *Consumer) OriginSource(source string, parsedLine, parsedColumn int) []O
 	length := len(lines)
 
 	var start int
-	if parsedLine >= 3 {
-		start = parsedLine - 3
+	if parsedLine >= 6 {
+		start = parsedLine - 6
 	} else {
 		start = 0
 	}
 
 	var end int
-	if start+5 >= length {
+	if start+12 >= length {
 		end = length
 	} else {
-		end = start + 5
+		end = start + 12
 	}
 
 	code := make([]OriginLine, 0)
